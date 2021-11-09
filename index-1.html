@@ -19,7 +19,7 @@
         <!--Main Styles Css-->
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <!--Color Css-->
-        <link rel="stylesheet" type="text/css" href="css/blue-color.css" />
+        <link rel="stylesheet" type="text/css" href="css/tan-color.css" />
 
         <!--Modernizr Js-->
         <script src="js/modernizr.js"></script>
@@ -100,23 +100,7 @@
         <div id="main" class="pages-stack">
 
             <!--Banner Page Start-->
-            <section id="home"  class="page section-home">
-
-                <!--Slider Start-->
-                <div class="banner-slider">
-                    <div id="slides">
-                        <div class="slides-container">
-                            <!--Slide 1-->
-                            <img src="img/background/slider/img-1.jpg" alt="">
-                            <!--Slide 2-->
-                            <img src="img/background/slider/img-2.jpg" alt="">
-                            <!--Slide 3-->
-                            <img src="img/background/slider/img-3.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <!--Slider End-->
-
+            <section id="home"  class="page section-home" style="background-image: url('img/background/slider/1.jpeg');">
                 <div class="banner-text">
                     <div class="profile-img">
                         <img src="img/profile-img.jpg" alt="person-image">
@@ -124,7 +108,7 @@
 
                     <h4>Brandon Clarks</h4>
 
-                    <div class="text-slideshow" data-effect="fx15">
+                    <div class="text-slideshow" data-effect="fx3">
                         <div class="text-slide text-slide--current"><h2 class="animate-title">Web Developer</h2></div>
                         <div class="text-slide"><h2 class="animate-title">Web Designer</h2></div>
                         <div class="text-slide"><h2 class="animate-title">UI/UX Designer</h2></div>
@@ -1013,18 +997,9 @@
         <!--Plugins JS-->
         <script src="js/plugins.min.js"></script>
         <!--Google Map Api-->
-        <script src="https://maps.googleapis.com/maps/api/js?key={YOUR-API-KEY}"></script>
+        <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
         <!--Site Main JS-->
         <script src="js/main.js"></script>
-
-        <script>
-        //Super Slider
-        $('#slides').superslides({
-            animation: 'fade',
-            play: 3000
-        });
-        </script>
-
 
     </body>
 </html>
